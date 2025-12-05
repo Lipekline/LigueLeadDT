@@ -1,7 +1,7 @@
 # LigueLeadDT
 
-# 🚀 Projects & Tasks API
-Uma API REST moderna, rápida e deliciosa™ para gerenciar projetos e tarefas.  
+# 🚀 API de tarefas
+Uma API REST moderna para gerenciar suas tarefas.  
 Construída com Node.js + Express + Sequelize, temperada com boas práticas de arquitetura e integração externa.  
 
 Sinta-se em casa. Puxe sua cadeira, abra seu VS Code e bora brincar com uns endpoints. 😎  
@@ -10,7 +10,7 @@ Sinta-se em casa. Puxe sua cadeira, abra seu VS Code e bora brincar com uns endp
 
 # ✨ O que essa API faz?
 
-Gerencie seus projetos e tarefas do jeito certo — simples, intuitivo e organizado.
+Gerencie suas tarefas de maneira simples e facil.
 
 ### 📁 Projetos
 - Criar  
@@ -24,24 +24,34 @@ Gerencie seus projetos e tarefas do jeito certo — simples, intuitivo e organiz
 - Atualizar título / descrição / status  
 - Deletar  
 
-Como bônus, a API também entrega **dicas externas** vindas de uma API pública — um toque a mais de ✨ magia ✨.
+Como bônus, a API também entrega **dicas externas** vindas de uma API pública ✨.
 
 ---
 
-# 🧩 Arquitetura: limpa, clara e sem bagunça
+# 🧩 Arquitetura: limpa
 
 O projeto segue uma arquitetura em camadas inspirada em padrões modernos:
 
 src/
+
 ├── config/ # Configurações gerais (banco, env, etc)
+
 ├── controllers/ # Entrada e saída de requisições
+
 ├── services/ # Regras de negócio
+
 ├── repositories/ # Consultas ao banco via Sequelize
+
 ├── integrations/ # Consumo de APIs externas
+
 ├── models/ # Models Sequelize (Project, Task)
+
 ├── routes/ # Rotas organizadas
+
 ├── middlewares/ # Segurança, rate limit, error handler
+
 ├── app.js # Configuração do Express
+
 └── server.js # Inicialização da API
 
 
@@ -70,5 +80,5 @@ src/
 
 ### 1️⃣ Clone o repositório
 ```bash
-git clone https://github.com/usuario/projects-api.git
+git clone https://github.com/lipekline/LigueLeadDT.git
 cd projects-api
